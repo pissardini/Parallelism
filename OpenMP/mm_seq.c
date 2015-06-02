@@ -2,7 +2,9 @@
 * FILE: mm_seq.c
 * DESCRIPTION: Sequential Matrix Multiplication.
 * AUTHOR: R.S. Pissardini
-******************************************************************************/
+* Compilation: gcc mm_seq.c -o mm_seq -lm
+* Execution:  ./mm_seq <n> (where <n> is the size of matrix).
+******************************************************************/
 
 #include <stdio.h>
 #include <assert.h>
